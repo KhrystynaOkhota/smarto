@@ -1,0 +1,116 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+
+.text {
+  &-right {
+    text-align: right;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-left {
+    text-align: left;
+  }
+
+  &-justify {
+    text-align: justify;
+  }
+
+  &-uppercase {
+    text-transform: uppercase;
+  }
+
+  &-light {
+    font-weight: 300;
+  }
+
+  &-regular {
+    font-weight: 400;
+  }
+
+  &-medium {
+    font-weight: 500;
+  }
+
+  &-semibold {
+    font-weight: 600;
+  }
+
+  &-bold {
+    font-weight: 700;
+  }
+
+  &-extrabold {
+    font-weight: 800;
+  }
+
+
+  &-s {
+    font-size: 20px;
+
+  }
+}
+
+
+.heading {
+
+  &-accent {
+    color: $accent-color;
+  }
+
+  &-font {
+
+  }
+}
+
+.h1 {
+  @include fontSize(35, 96);
+}
+
+.h2 {
+  @include fontSize(30, 48);
+}
+
+.h3 {
+  @include fontSize(20, 24);
+}
+
+
+.h4 {
+  @include fontSize(25, 30);
+}
+
+.h5 {
+  @include fontSize(20, 25);
+}
+
+.h6 {
+  @include fontSize(15, 17);
+}
+
+
+.icon-facebook:before {
+  content: "\e900";
+}
+
+.icon-instagram:before {
+  content: "\e901";
+}
+
+.icon-tiktok:before {
+  content: "\e902";
+}
+
+.icon-youtube:before {
+  content: "\e903";
+}
+
+.icon-ar-bottom:before {
+  content: "\e906";
+}
+
+.icon-phone:before {
+  content: "\e907";
+}

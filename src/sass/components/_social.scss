@@ -1,0 +1,35 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+
+.social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+
+
+  &-item {
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    cursor: pointer;
+    background: rgba(10, 15, 19, 1);
+    @include transition(.5);
+    & i {
+      color: rgba(239, 243, 245, 1);
+      @include fontSize(13, 14);
+      @include transition(.5);
+    }
+
+    & a {
+      height: 100%;
+      width: 100%;
+    }
+
+    &:hover {
+      background: rgba(10, 15, 19, .8);
+    }
+  }
+}
+

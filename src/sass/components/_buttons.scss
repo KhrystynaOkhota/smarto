@@ -1,0 +1,46 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+
+.btn {
+  position: relative;
+  box-shadow: none;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+
+
+  letter-spacing: -2%;
+  text-transform: uppercase;
+  line-height: 140%;
+  font-size: 14px;
+
+  padding: 13px 20px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 500;
+
+  @include transition(.3);
+
+
+  &:hover {
+    & .btn__icon {
+      & i {
+        transform: rotate(45deg);
+      }
+
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &-primary {
+    color: rgba(239, 243, 245, 1);
+    background: rgba(10, 15, 19, 1);
+    border-radius: 100px;
+
+  }
+}
+
+

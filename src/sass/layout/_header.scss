@@ -1,0 +1,23 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 7;
+  padding: 24px 0 ;
+
+  & .logo {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+    &__wrap {
+      width: 198px;
+      height: 29px;
+    }
+  }
+}

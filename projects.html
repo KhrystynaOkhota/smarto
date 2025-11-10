@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="uk" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>test</title>
+    <meta name="description" content=""/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/app.css"/>
+
+
+</head>
+<body>
+
+
+<header class="header">
+    <div class=" container d-flex align-middle  align-center">
+        <a href="" class="logo__wrap d-block">
+            <img src="assets/img/logo.svg" alt="Reparo" class="logo">
+        </a>
+    </div>
+</header>
+
+<main class="main">
+
+    <section class="s-hero">
+        <div class="swiper-entry">
+            <div class="swiper-container"
+                 data-options='{"speed": 1200, "parallax":true, "slidesPerView":1, "spaceBetween": 0, "loop": false }'>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="container-fluid p-0">
+                            <div class="row  banner__align">
+                                <div class="col-xl-16 col-lg-16 col-md-16 col-sm-16 col-xs-16">
+                                    <h1 class="heading h1">Test slider</h1>
+                                    <div class="banner__img-wrap">
+                                        <img src="assets/img/bg.png" alt="" class="banner__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container-fluid p-0">
+                            <div class="row  banner__align">
+                                <div class="col-xl-16 col-lg-16 col-md-16 col-sm-16 col-xs-16">
+                                    <h2 class="heading h1">Owoooooo</h2>
+                                    <div class="banner__img-wrap">
+                                        <img src="assets/img/bg2.png" alt="" class="banner__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-controls">
+                    <div class="swiper-button swiper-button__prev d-flex align-center align-middle">
+                        <img src="assets/img/ar-left.svg" alt="" class="swiper-button__img">
+                    </div>
+                    <div class="swiper-button swiper-button__next  d-flex align-center align-middle">
+                        <img src="assets/img/ar-right.svg" alt="" class="swiper-button__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decor-union__wrap d-flex align-justify align-middle --relative">
+            <img src="assets/img/decor-union.svg" alt="" class="decor-union__img">
+
+            <img src="assets/img/clover.svg" alt="" class="decor-union__img">
+        </div>
+    </section>
+
+    <section class="s-catalog">
+        <div class="container">
+            <div class="row m-row">
+                <div class="col-xl-16 col-lg-16 col-md-16 col-sm-16 col-xs-16 column">
+                    <h1 class="heading h2 text-bold">Збудовані обʼєкти</h1>
+                </div>
+            </div>
+
+            <div class="row m-row">
+
+                <div class="col-xl-16 col-lg-16 col-md-16 col-sm-16 col-xs-16 column">
+
+                    <div id="tabs" class="tab__wrap"></div>
+                    <div id="projects-container" class="project__grid"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-16 col-lg-16 col-md-16 col-sm-16 col-xs-16 d-flex  align-center">
+                    <div id="load-more" class="btn-more">Завантажити ще</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s-contacts">
+        <div class="container-fluid">
+            <div class="row m-row align-center">
+                <div class="col-xl-8 col-lg-10 col-md-12 col-sm-16 col-xs-16 column">
+
+                    <div class="decor-union__wrap d-flex align-justify align-middle --relative">
+                        <img src="assets/img/decor-union.svg" alt="" class="decor-union__img">
+                        <div class="decor-union__text text-uppercase text-medium">Smarto</div>
+
+                    </div>
+
+                    <h2 class="heading h1">Контакти</h2>
+                    <div class="footer-info__grid">
+                        <div class="footer-info__wrap">
+                            <div class="footer-info__title h3 text-semibold">Головний офіс:</div>
+                            <div class="footer-info ">
+                                <ul>
+                                    <li>
+                                        <a href="mailto:SmartorangeTest@gmail.com" target="_blank">SmartorangeTest@gmail.com</a>
+                                    </li>
+                                </ul>
+                                <a href="" class="btn btn-primary">Відкрити на Google maps</a>
+                            </div>
+                        </div>
+                        <div class="footer-info__wrap">
+                            <div class="footer-info__title h3 text-semibold">Наші соцмережі:</div>
+                            <div class="footer-info ">
+                                <ul class="social d-flex align-middle">
+                                    <li class="social-item">
+                                        <a href="" class="d-flex align-center align-middle">
+                                            <i class="icon-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a href="" class="d-flex align-center align-middle">
+                                            <i class="icon-youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-item ">
+                                        <a href="" class="d-flex align-center align-middle">
+                                            <i class="icon-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a href="" class="d-flex align-center align-middle">
+                                            <i class="icon-tiktok"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-info__wrap">
+                            <div class="footer-info__title h3 text-semibold">Телефони відділів:</div>
+                            <div class="footer-info ">
+                                <ul>
+                                    <li class="d-flex align-middle align-left">
+                                        <a href="mailto:office@smarto.ua" target="_blank"><i class="icon-phone"></i>
+                                            (044) 444-44-44</a><span>( Юридичний відділ )</span>
+                                    </li>
+                                    <li class="d-flex align-middle align-left">
+                                        <a href="mailto:office@smarto.ua" target="_blank"><i class="icon-phone"></i>
+                                            (044) 444-44-44</a><span>( Юридичний відділ )</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-info__wrap">
+                            <div class="footer-info__title h3 text-semibold">Email:</div>
+                            <div class="footer-info ">
+                                <ul>
+                                    <li>
+                                        <a href="mailto:office@smarto.ua" target="_blank">office@smarto.ua</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-xl-8 col-lg-10 col-md-12 col-sm-16 col-xs-16 column">
+                    <div class="slogan slogan-1">Якість</div>
+                    <div class="slogan slogan-2">понад усе</div>
+                    <div class="swiper-entry ">
+                        <div class="swiper-container"
+                             data-options='{"speed": 1200,"loop":true, "effect":"fade", "slidesPerView":1 }'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="gallery__img-wrap">
+                                        <img src="assets/img/gallery-1.jpg" alt="" class="gallery__img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__img-wrap">
+                                        <img src="assets/img/gallery-2.jpg" alt="" class="gallery__img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__img-wrap">
+                                        <img src="assets/img/bg-test.jpg" alt="" class="gallery__img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__img-wrap">
+                                        <img src="assets/img/gallery-2.jpg" alt="" class="gallery__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+
+</footer>
+
+
+<script src="./assets/js/jquery-3.7.0.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/js_app.min.js"></script>
+<script src="assets/js/app-swiper.js"></script>
+<!--
+<script>
+    const tabsContainer = document.getElementById('tabs');
+    const projectsContainer = document.getElementById('projects-container');
+    const loadMoreBtn = document.getElementById('load-more');
+
+    let projects = [];
+    let filteredProjects = [];
+    let currentIndex = 0;
+    const pageSize = 3; // по 3 проекти за раз
+    let currentType = 'all';
+
+    async function loadProjects() {
+        try {
+            const response = await fetch('https://test.smarto.agency/smarto_complexes_list.json');
+            if (!response.ok) throw new Error('Помилка завантаження даних');
+            projects = await response.json();
+
+            createTabs();
+            applyFilter();
+        } catch (error) {
+            console.error(error);
+            projectsContainer.innerHTML = '<p>Не вдалося завантажити проекти</p>';
+        }
+    }
+
+    function createTabs() {
+        const types = ['all', ...new Set(projects.map(p => p.type))];
+
+        types.forEach((type, index) => {
+            const button = document.createElement('button');
+            button.textContent = type === 'all' ? 'Всі' : capitalize(type);
+            button.dataset.type = type;
+            button.className = 'tab';
+            if (index === 0) button.classList.add('active');
+
+            button.addEventListener('click', () => {
+                document.querySelectorAll('#tabs .tab').forEach(t => t.classList.remove('active'));
+                button.classList.add('active');
+                applyFilter(type);
+            });
+
+            tabsContainer.appendChild(button);
+        });
+    }
+
+    function renderProjects() {
+        const nextItems = filteredProjects.slice(currentIndex, currentIndex + pageSize);
+
+        nextItems.forEach((project, i) => {
+            const div = document.createElement('div');
+            div.className = 'project';
+            div.innerHTML = `
+          <h3>${project.name}</h3>
+          <p>${project.description || ''}</p>
+          <small>Тип: ${project.type}</small>
+        `;
+            projectsContainer.appendChild(div);
+
+            // Додаємо плавну появу з невеликим затриманням для ефекту
+            setTimeout(() => div.classList.add('show'), i * 100);
+        });
+
+        currentIndex += pageSize;
+        loadMoreBtn.style.display = currentIndex < filteredProjects.length ? 'block' : 'none';
+    }
+
+    function applyFilter(type = currentType) {
+        currentType = type;
+        currentIndex = 0;
+        projectsContainer.innerHTML = '';
+
+        filteredProjects = type === 'all' ? projects : projects.filter(p => p.type === type);
+        renderProjects();
+    }
+
+    loadMoreBtn.addEventListener('click', renderProjects);
+
+    function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
+    loadProjects();
+</script>-->
+
+<!--<script>
+    const tabsContainer = document.getElementById('tabs');
+    const projectsContainer = document.getElementById('projects-container');
+    const loadMoreBtn = document.getElementById('load-more');
+
+    let projects = [];
+    let filteredProjects = [];
+    let currentIndex = 0;
+    const pageSize = 3;
+    let currentType = 'all';
+
+    async function loadProjects() {
+        try {
+            const response = await fetch('https://test.smarto.agency/smarto_complexes_list.json');
+            if (!response.ok) throw new Error('Помилка завантаження даних');
+            projects = await response.json();
+
+            createTabs();
+            applyFilter();
+        } catch (error) {
+            console.error(error);
+            projectsContainer.innerHTML = '<p>Не вдалося завантажити проекти</p>';
+        }
+    }
+
+    function createTabs() {
+        const types = ['all', ...new Set(projects.map(p => p.type))];
+
+        types.forEach((type, index) => {
+            const button = document.createElement('button');
+            button.textContent = type === 'all' ? 'Усі' : capitalize(type);
+            button.dataset.type = type;
+            button.className = 'tab';
+            if (index === 0) button.classList.add('active');
+
+            button.addEventListener('click', () => {
+                document.querySelectorAll('#tabs .tab').forEach(t => t.classList.remove('active'));
+                button.classList.add('active');
+                applyFilter(type);
+            });
+
+            tabsContainer.appendChild(button);
+        });
+    }
+
+    function renderProjects() {
+        const nextItems = filteredProjects.slice(currentIndex, currentIndex + pageSize);
+
+        nextItems.forEach((project, i) => {
+            const div = document.createElement('div');
+            div.className = 'project --relative';
+
+            const tagsHTML = project.tags.map(tag => `<div class="types-work">${tag}</div>`).join('');
+
+            div.innerHTML = `
+          <div class="pin__wrap">
+            <img src="assets/img/pin.svg" alt="" class="pin">
+          </div>
+          <div class="d-flex align-justify align-middle">
+            <div class="project__date">${project.year} р.</div>
+            <div class="project__category">${capitalize(project.type)}</div>
+          </div>
+          <div class="">
+            <img src="${project.img}" alt="" class="project__img">
+            <div class="project__name h3 text-semibold">${project.name}</div>
+          </div>
+          <div class="project__location">${project.adress}</div>
+         <div>
+
+         <div class="types-work__title">Види робіт:</div>
+
+
+          <div class="types-work__wrap">${tagsHTML}</div>
+          </div>
+        `;
+
+            projectsContainer.appendChild(div);
+
+            setTimeout(() => {
+                div.style.opacity = '1';
+                div.style.transform = 'translateY(0)';
+            }, i * 100);
+        });
+
+        currentIndex += pageSize;
+        loadMoreBtn.style.display = currentIndex < filteredProjects.length ? 'block' : 'none';
+    }
+
+    function applyFilter(type = currentType) {
+        currentType = type;
+        currentIndex = 0;
+        projectsContainer.innerHTML = '';
+
+        filteredProjects = type === 'all' ? projects : projects.filter(p => p.type === type);
+        renderProjects();
+    }
+
+    loadMoreBtn.addEventListener('click', renderProjects);
+
+    function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
+    loadProjects();
+</script>-->
+
+<script>
+    const tabsContainer = document.getElementById('tabs');
+    const projectsContainer = document.getElementById('projects-container');
+    const loadMoreBtn = document.getElementById('load-more');
+
+    let projects = [];           // усі проєкти з JSON
+    let visibleProjects = [];    // ті, що вже завантажені на сторінку
+    let currentIndex = 0;
+    const pageSize = 3;
+    let currentType = 'all';
+
+    async function loadProjects() {
+        try {
+            const response = await fetch('https://test.smarto.agency/smarto_complexes_list.json');
+            if (!response.ok) throw new Error('Помилка завантаження даних');
+            projects = await response.json();
+
+            createTabs();
+            renderNextPage(); // показати перші 3
+        } catch (error) {
+            console.error(error);
+            projectsContainer.innerHTML = '<p>Не вдалося завантажити проекти</p>';
+        }
+    }
+
+    function createTabs() {
+        const types = ['all', ...new Set(projects.map(p => p.type.trim().toLowerCase()))];
+
+        types.forEach((type, index) => {
+            const button = document.createElement('button');
+            button.textContent = type === 'all' ? 'Усі' : capitalize(type);
+            button.dataset.type = type;
+            button.className = 'tab';
+            if (index === 0) button.classList.add('active');
+
+            button.addEventListener('click', () => {
+                document.querySelectorAll('#tabs .tab').forEach(t => t.classList.remove('active'));
+                button.classList.add('active');
+                applyFilter(type);
+            });
+
+            tabsContainer.appendChild(button);
+        });
+    }
+
+    function renderNextPage() {
+        const nextItems = projects.slice(currentIndex, currentIndex + pageSize);
+        visibleProjects = [...visibleProjects, ...nextItems];
+
+        renderProjects();
+        currentIndex += pageSize;
+
+        loadMoreBtn.style.display = currentIndex < projects.length ? 'block' : 'none';
+    }
+
+    function renderProjects() {
+        projectsContainer.innerHTML = ''; // очищаємо перед відображенням (для фільтра)
+        const filtered =
+            currentType === 'all'
+                ? visibleProjects
+                : visibleProjects.filter(p => p.type.trim().toLowerCase() === currentType);
+
+        filtered.forEach((project, i) => {
+            const div = document.createElement('div');
+            div.className = 'project --relative';
+            const tagsHTML = project.tags.map(tag => `<div class="types-work">${tag}</div>`).join('');
+
+            div.innerHTML = `
+            <div class="pin__wrap"><img src="assets/img/pin.svg" alt="" class="pin"></div>
+            <div class="d-flex align-justify align-middle">
+                <div class="project__date">${project.year} р.</div>
+                <div class="project__category">${capitalize(project.type)}</div>
+            </div>
+            <div>
+                <img src="${project.img}" alt="" class="project__img">
+                <div class="project__name h3 text-semibold">${project.name}</div>
+            </div>
+            <div class="project__location">${project.adress}</div>
+            <div class="types-work__title">Види робіт:</div>
+            <div class="types-work__wrap">${tagsHTML}</div>
+        `;
+
+            projectsContainer.appendChild(div);
+
+            setTimeout(() => {
+                div.style.opacity = '1';
+                div.style.transform = 'translateY(0)';
+            }, i * 100);
+        });
+    }
+
+    function applyFilter(type = currentType) {
+        currentType = type;
+        renderProjects();
+    }
+
+    loadMoreBtn.addEventListener('click', renderNextPage);
+
+    function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
+    loadProjects();
+
+</script>
+
+
+</body>
+</html>
+
